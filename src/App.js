@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react';
+import UsersList from './components/UsersList';
 
-class App extends Component {
-  render() {
-    return (
-      <div id="App">
-        <h1>Activity Tracker<h1>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div className="App">
+      <UsersList />
+    </div>
+  );
 }
 
 export default App;

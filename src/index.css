@@ -1,1 +1,9 @@
-
+.user-card{
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.pull-right{
+    margin-left: 50px;
+}
